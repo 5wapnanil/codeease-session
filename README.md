@@ -111,52 +111,7 @@ codeease-session/
    ```
 
 2. Deploy:
-   - Go to [Vercel](https://vercel.com)
-   - Sign up/login with GitHub
-   - Import your repository
-   - Deploy automatically
-
-### Netlify
-
-1. Build the project:
-   ```bash
-   npm run build
-   ```
-
-2. Deploy:
-   - Go to [Netlify](https://netlify.com)
-   - Connect your GitHub repository
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-   - Deploy
-
-### GitHub Pages
-
-1. Install gh-pages:
-   ```bash
-   npm install --save-dev gh-pages
-   ```
-
-2. Update `package.json`:
-   ```json
-   "scripts": {
-     "deploy": "npm run build && gh-pages -d dist"
-   }
-   ```
-
-3. Update `vite.config.js`:
-   ```javascript
-   export default defineConfig({
-     plugins: [react()],
-     base: '/codeease-session/'
-   })
-   ```
-
-4. Deploy:
-   ```bash
-   npm run deploy
-   ```
-
+link:-https://codeease-session-plum.vercel.app/
 ## 📝 Available Scripts
 
 - `npm run dev` - Start development server
